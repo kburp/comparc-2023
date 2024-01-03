@@ -1,0 +1,10 @@
+00900213 // PC=0x0 line=1: addi x4, zero, 9
+00100093 // PC=0x4 line=2: LOOP_START: addi x1, zero, 1
+00200113 // PC=0x8 line=3: addi x2, zero, 2
+001001b3 // PC=0xc line=4: add  x3, zero, x1
+00208a63 // PC=0x10 line=5: NOT_TAKEN:  beq x1, x2, INVALID
+fff20213 // PC=0x14 line=6: addi x4, x4, -1
+00020463 // PC=0x18 line=7: beq x4, zero, END
+fe9ff56f // PC=0x1c line=8: jal x10, LOOP_START
+00308063 // PC=0x20 line=9: END:        beq x1, x3, END
+00000013 // PC=0x24 line=10: INVALID:    nop

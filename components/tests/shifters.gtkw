@@ -1,0 +1,28 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Oct 31 20:16:31 2023
+[*]
+[dumpfile] "/home/kburpee/olin-cafe-f23/components/shifters.fst"
+[dumpfile_mtime] "Tue Oct 31 20:14:09 2023"
+[dumpfile_size] 16727
+[savefile] "/home/kburpee/olin-cafe-f23/components/tests/shifters.gtkw"
+[timestart] 74800
+[size] 1000 600
+[pos] -1 -1
+*-15.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_sll.
+[sst_width] 297
+[signals_width] 166
+[sst_expanded] 1
+[sst_vpaned_height] 158
+@201
+-srl
+@420
+test_sll.SRA.N
+@22
+test_sll.SRA.in[31:0]
+test_sll.SRA.out[31:0]
+test_sll.SRA.shamt[4:0]
+test_sll.correct_srl[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

@@ -1,0 +1,36 @@
+// To instantiate:
+// adder_n #(.N(32)) AN_ADDER_THAT_IS_32_BITS_WIDE ( port list );
+
+// A ripple carry implementation.
+
+`default_nettype none
+
+module adder_n(a, b, c_in, sum, c_out);
+
+parameter N = 2;
+
+input  wire [N-1:0] a, b;
+input wire c_in;
+output logic [N-1:0] sum;
+output wire c_out;
+
+// assign the carry out for each adder to the carry in of the next adder
+wire [N:0] carries;
+assign carries[0] = c_in;
+assign c_out = carries[N];
+
+// generate N adder_1 modules
+generate
+  genvar i;
+  for(i = 0; i < N; i++) begin : ripple_carry
+    adder_1 ADDER (
+      .a(a[i]),
+      .b(b[i]),
+      .c_in(carries[i]),
+      .sum(sum[i]),
+      .c_out(carries[i+1])
+    );
+  end
+endgenerate
+
+endmodule

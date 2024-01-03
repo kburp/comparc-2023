@@ -1,0 +1,29 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Tue Sep 26 20:00:19 2023
+[*]
+[dumpfile] "/home/avinash/src/olin-cafe-f23/components/decoders.fst"
+[dumpfile_mtime] "Tue Sep 26 20:00:11 2023"
+[dumpfile_size] 1245
+[savefile] "/home/avinash/src/olin-cafe-f23/components/tests/decoders.gtkw"
+[timestart] 0
+[size] 636 1094
+[pos] -27 -24
+*0.000000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 234
+[signals_width] 162
+[sst_expanded] 1
+[sst_vpaned_height] 329
+@28
+test_decoders.ena
+@22
+test_decoders.in[4:0]
+@28
+test_decoders.out2[1:0]
+@22
+test_decoders.out4[3:0]
+test_decoders.out8[7:0]
+test_decoders.out16[15:0]
+test_decoders.out32[31:0]
+[pattern_trace] 1
+[pattern_trace] 0

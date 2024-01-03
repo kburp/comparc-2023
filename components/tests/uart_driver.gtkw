@@ -1,0 +1,84 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Tue Nov 14 07:20:44 2023
+[*]
+[dumpfile] "/home/avinash/src/cafe-instructors/components/uart_driver.fst"
+[dumpfile_mtime] "Tue Nov 14 07:18:08 2023"
+[dumpfile_size] 4829
+[savefile] "/home/avinash/src/cafe-instructors/components/tests/uart_driver.gtkw"
+[timestart] 0
+[size] 2613 2054
+[pos] -1 -1
+*-24.945980 232700 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_uart_driver.
+[sst_width] 328
+[signals_width] 382
+[sst_expanded] 1
+[sst_vpaned_height] 642
+@28
+test_uart_driver.UUT.rst
+test_uart_driver.UUT.clk
+@200
+-RX Signals
+@28
+test_uart_driver.UUT.uart_rx
+test_uart_driver.UUT.rx_valid
+@22
+test_uart_driver.UUT.rx_buffer[7:0]
+test_uart_driver.UUT.rx_data[7:0]
+@24
+test_uart_driver.UUT.rx_data_counter[2:0]
+@22
+test_uart_driver.UUT.rx_errors[31:0]
+test_uart_driver.UUT.rx_sample_counter[6:0]
+@28
+test_uart_driver.UUT.rx_mid_cycle
+@2024
+^1 /home/avinash/src/cafe-instructors/components/tests/uart_states.txt
+test_uart_driver.UUT.rx_state[1:0]
+@200
+-TX Signals
+@28
+test_uart_driver.UUT.uart_tx
+@22
+test_uart_driver.UUT.tx_buffer[7:0]
+test_uart_driver.UUT.tx_data[7:0]
+@24
+test_uart_driver.UUT.tx_data_counter[2:0]
+@28
+test_uart_driver.UUT.tx_ready
+@22
+test_uart_driver.UUT.tx_sample_counter[6:0]
+@28
+test_uart_driver.UUT.tx_sample_counter_rst
+@2025
+^1 /home/avinash/src/cafe-instructors/components/tests/uart_states.txt
+test_uart_driver.UUT.tx_state[1:0]
+@28
+test_uart_driver.UUT.tx_valid
+@200
+-Test Signals
+@420
+test_uart_driver.BAUDRATE
+@22
+test_uart_driver.BAUD_PERIOD_NS
+@420
+test_uart_driver.CLK_HZ
+@22
+test_uart_driver.CLK_PERIOD_NS
+@420
+test_uart_driver.DATA_BITS
+@22
+test_uart_driver.rx_data[7:0]
+@28
+test_uart_driver.rx_valid
+@22
+test_uart_driver.tx_data[7:0]
+@28
+test_uart_driver.tx_ready
+test_uart_driver.rx_valid
+@22
+test_uart_driver.send_data[7:0]
+test_uart_driver.pending_byte[7:0]
+[pattern_trace] 1
+[pattern_trace] 0

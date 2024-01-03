@@ -1,0 +1,44 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Tue Aug  8 21:04:54 2023
+[*]
+[dumpfile] "/home/avinash/src/cafe-instructors/components/edge_detector.fst"
+[dumpfile_mtime] "Tue Aug  8 21:04:26 2023"
+[dumpfile_size] 1076
+[savefile] "/home/avinash/src/cafe-instructors/components/tests/edge_detector.gtkw"
+[timestart] 0
+[size] 1276 2054
+[pos] -1 -1
+*-9.300000 104 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_edge_detectors.
+[sst_width] 273
+[signals_width] 190
+[sst_expanded] 1
+[sst_vpaned_height] 663
+@28
+test_edge_detectors.UUT.rst
+test_edge_detectors.UUT.ACTIVE_LOW
+@420
+test_edge_detectors.UUT.SYNC_DEPTH
+@28
+test_edge_detectors.UUT.clk
+test_edge_detectors.UUT.in
+test_edge_detectors.UUT.in_buffer
+test_edge_detectors.UUT.negative_edge
+test_edge_detectors.UUT.positive_edge
+@200
+-Synced Edge Detector
+@c00029
+test_edge_detectors.UUT_SYNC.in_buffer[3:0]
+@29
+(0)test_edge_detectors.UUT_SYNC.in_buffer[3:0]
+(1)test_edge_detectors.UUT_SYNC.in_buffer[3:0]
+(2)test_edge_detectors.UUT_SYNC.in_buffer[3:0]
+(3)test_edge_detectors.UUT_SYNC.in_buffer[3:0]
+@1401201
+-group_end
+@28
+test_edge_detectors.negative_edge_synced
+test_edge_detectors.positive_edge_synced
+[pattern_trace] 1
+[pattern_trace] 0

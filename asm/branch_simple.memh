@@ -1,0 +1,6 @@
+00100093 // PC=0x0 line=1: START:     addi x1, zero, 1
+00200113 // PC=0x4 line=2: addi x2, zero, 2
+001001b3 // PC=0x8 line=3: add  x3, zero, x1
+00208463 // PC=0xc line=4: NOT_TAKEN: beq x1, x2, INVALID
+00308063 // PC=0x10 line=5: END:       beq x1, x3, END
+00000013 // PC=0x14 line=6: INVALID:   nop

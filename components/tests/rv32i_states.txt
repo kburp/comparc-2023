@@ -1,0 +1,14 @@
+0 Fetch
+1 Decode
+2 Exec I
+3 Exec R
+4 Writeback
+5 Mem Addr
+6 Mem Read
+7 Mem WB
+8 Mem WR
+10 Branch
+11 JALR
+12 JAL
+13 J WB
+15 Error

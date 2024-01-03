@@ -1,0 +1,62 @@
+[*]
+[*] GTKWave Analyzer v3.3.111 (w)1999-2020 BSI
+[*] Tue Sep 26 00:55:06 2023
+[*]
+[dumpfile] "/home/avinash/src/cafe-instructors/components/muxes.fst"
+[dumpfile_mtime] "Tue Sep 26 00:27:19 2023"
+[dumpfile_size] 3660
+[savefile] "/home/avinash/src/cafe-instructors/components/tests/muxes.gtkw"
+[timestart] 0
+[size] 3012 458
+[pos] -27 -24
+*-14.400000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] test_muxes.
+[sst_width] 273
+[signals_width] 206
+[sst_expanded] 1
+[sst_vpaned_height] 107
+@24
+test_muxes.in0[31:0]
+test_muxes.in1[31:0]
+test_muxes.in2[31:0]
+test_muxes.in3[31:0]
+test_muxes.in4[31:0]
+test_muxes.in5[31:0]
+test_muxes.in6[31:0]
+test_muxes.in7[31:0]
+test_muxes.in8[31:0]
+test_muxes.in9[31:0]
+test_muxes.in10[31:0]
+test_muxes.in11[31:0]
+test_muxes.in12[31:0]
+test_muxes.in13[31:0]
+test_muxes.in14[31:0]
+test_muxes.in15[31:0]
+test_muxes.in16[31:0]
+test_muxes.in17[31:0]
+test_muxes.in18[31:0]
+test_muxes.in19[31:0]
+test_muxes.in20[31:0]
+test_muxes.in21[31:0]
+test_muxes.in22[31:0]
+test_muxes.in23[31:0]
+test_muxes.in24[31:0]
+test_muxes.in25[31:0]
+test_muxes.in26[31:0]
+test_muxes.in27[31:0]
+test_muxes.in28[31:0]
+test_muxes.in29[31:0]
+test_muxes.in30[31:0]
+test_muxes.in31[31:0]
+@22
+test_muxes.s[4:0]
+@201
+-outputs
+@24
+test_muxes.out2[31:0]
+test_muxes.out4[31:0]
+test_muxes.out8[31:0]
+test_muxes.out16[31:0]
+test_muxes.out32[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
